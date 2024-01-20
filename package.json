@@ -1,0 +1,25 @@
+{
+  "name": "puppeteer-google-scraper",
+  "version": "1.0.0",
+  "description": "A puppeteer script to scrape the google homepage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zawyar/puppeteer-google-scraper.git"
+  },
+  "author": "Zawyar Ur Rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zawyar/puppeteer-google-scraper/issues"
+  },
+  "homepage": "https://github.com/zawyar/puppeteer-google-scraper#readme",
+  "dependencies": {
+    "puppeteer": "^21.7.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}
